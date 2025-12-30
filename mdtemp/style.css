@@ -1,0 +1,16 @@
+:root {
+  --light-bg: #FFFFFF;
+  --dark-bg: #222222;
+  --light-txt: #FFFFFF;
+  --dark-txt: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  background-color: var(--dark-bg);
+  color: var(--light-txt);
+}
+
+@media (prefers-color-scheme: light) {
+  background-color: var(--light-bg);
+  color: var(--dark-txt);
+}
